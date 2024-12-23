@@ -1,0 +1,68 @@
+.tab2{
+    direction: rtl;
+    width: 80%;
+    margin-left: 100px;
+    background-color: #c7c7c7;
+
+    text-align: center;
+    
+}
+
+
+.tab2 th{
+   background-color: #666;   
+   padding: 10px; 
+   border: double 5px white;
+}
+
+
+.btn_submit{
+    background-color: rgb(234, 156, 12);
+    border: 1.5px solid black;
+    margin: 20px;
+    margin-left:45rem;
+    padding-left: 18px;
+    padding-right: 18px;
+
+    border-radius: 15px;
+}
+.btn_Send{
+    background-color: rgb(234, 156, 12);
+    border: 1.5px solid black;
+    margin: 20px;
+   
+    padding-left: 18px;
+    padding-right: 18px;
+
+    border-radius: 15px;
+}
+
+
+#info{
+    background-color: #444;
+    color: #fff;
+    font-size: 20px;
+    padding: 15px;
+    margin: 25px;
+    border: 3px solid black;
+    border-radius: 20px;
+    width:25%;
+ 
+}
+
+#info input{
+    border: 1px double cornflowerblue;
+    border-radius: 10px;
+
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.div_hide{
+    color: #fff;
+    text-align: center;
+    margin: 15px;
+    color: #000;
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Style.css">
+    <script src="jquery-3.7.1.min.js"></script>
+
+    <script>
+     $(document).ready(function(){
+        $('#check1').click(function(){
+            $("#div1").fadeToggle()
+        })
+        $('#check2').click(function(){
+            $("#div2").fadeToggle()
+        })
+        $('#check3').click(function(){
+            $("#div3").fadeToggle()
+        })
+        $('#check4').click(function(){
+            $("#div4").fadeToggle()
+        })
+        $('#check5').click(function(){
+            $("#div5").fadeToggle()
+        })
+     })
+    </script>
+
+    <title>Books</title>
+</head>
+<body>
+      
+   <table class="tab2" >
+    <tr>
+        <th>رمزالكتاب ISBN</th>
+        <th>العنوان</th>
+        <th>السعر</th>
+        <th>إظهار التفاصيل</th>
+        <th>اختيار</th>
+    </tr>
+    <tr>
+        <td>978-9770916738</td>
+        <td>الف ليلة وليلة</td>
+        <td>25000ل.س</td>
+        <td><input type="checkbox" id="check1">  </td>
+        <td> <input type="radio" id=""></td>
+    </tr>
+
+    <tr class="div_hide" id="div1" style="display: none;" >
+        <td>
+            <p>الناشر: دار المعارف </p>
+            <p>تصنيف الكتاب: قصص شعبية</p>
+            <p>ملخص: كتاب أسطوري يضم مجموعة من القصص الشعبية من الشرق
+                 األوسط وجنوب آسيا وشمال إفريقيا</p>
+        </td>
+    </tr>
+    <tr>
+        <td>978-9770916738</td>
+        <td>الف ليلة وليلة</td>
+        <td>25000ل.س</td>
+        <td><input type="checkbox" id="check2">  </td>
+        <td> <input type="radio" id=""></td>
+    </tr>
+
+    <tr class="div_hide"  id="div2" style="display: none;" >
+        <td>
+            <p>الناشر: دار المعارف </p>
+            <p>تصنيف الكتاب: قصص شعبية</p>
+            <p>ملخص: كتاب أسطوري يضم مجموعة من القصص الشعبية من الشرق
+                 األوسط وجنوب آسيا وشمال إفريقيا</p>
+        </td>
+    </tr>
+    <tr>
+        <td>978-9770916738</td>
+        <td>الف ليلة وليلة</td>
+        <td>25000ل.س</td>
+        <td><input type="checkbox" id="check3">  </td>
+        <td> <input type="radio" id=""></td>
+    </tr>
+
+    <tr class="div_hide" id="div3" style="display: none;" >
+        <td>
+            <p>الناشر: دار المعارف </p>
+            <p>تصنيف الكتاب: قصص شعبية</p>
+            <p>ملخص: كتاب أسطوري يضم مجموعة من القصص الشعبية من الشرق
+                 األوسط وجنوب آسيا وشمال إفريقيا</p>
+        </td>
+    </tr>
+    <tr>
+        <td>978-9770916738</td>
+        <td>الف ليلة وليلة</td>
+        <td>25000ل.س</td>
+        <td><input type="checkbox" id="check4">  </td>
+        <td> <input type="radio" id=""></td>
+    </tr>
+
+    <tr class="div_hide" id="div4" style="display: none;" >
+        <td>
+            <p>الناشر: دار المعارف </p>
+            <p>تصنيف الكتاب: قصص شعبية</p>
+            <p>ملخص: كتاب أسطوري يضم مجموعة من القصص الشعبية من الشرق
+                 األوسط وجنوب آسيا وشمال إفريقيا</p>
+        </td>
+    </tr>
+    <tr>
+        <td>978-9770916738</td>
+        <td>الف ليلة وليلة</td>
+        <td>25000ل.س</td>
+        <td><input type="checkbox" id="check5">  </td>
+        <td> <input type="radio" id=""></td>
+    </tr>
+
+    <tr class="div_hide" id="div5" style="display: none;" >
+        <td>
+            <p>الناشر: دار المعارف </p>
+            <p>تصنيف الكتاب: قصص شعبية</p>
+            <p>ملخص: كتاب أسطوري يضم مجموعة من القصص الشعبية من الشرق
+                 األوسط وجنوب آسيا وشمال إفريقيا</p>
+        </td>
+    </tr>
+   </table>
+
+   <button class="btn_submit"  >متابعة</button>
+
+
+   <form id="info" style="display: none;"> 
+    <label>FullName</label>
+    <input type="text" placeholder="Enter your FullName"><br>
+    <label>NationalId</label>
+    <input type="text" placeholder="Enter your NationalId"><br>
+    <label>Date</label>
+    <input type="date" placeholder="Enter your date"><br>
+    <label>Number Phone</label>
+    <input type="text" placeholder="Enter your Number Phone"><br>
+    <label>Email</label>
+    <input type="email" placeholder="Enter your Email"><br>
+
+
+    <button class="btn_Send">ارسال</button>
+
+   </form>
+
+
+
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="myFunctions.js"></script>
+</body>
+</html>
